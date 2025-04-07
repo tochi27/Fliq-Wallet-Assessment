@@ -1,0 +1,44 @@
+{
+  "1743986196745": {
+    "walletId": "1743986196745",
+    "userId": "1743983893530",
+    "balance": 0,
+    "username": "user_1743983893530"
+  },
+  "1743986284687": {
+    "walletId": "1743986284687",
+    "userId": "1743986268615",
+    "balance": 52000,
+    "username": "user_1743986268615"
+  },
+  "1743987641388": {
+    "walletId": "1743987641388",
+    "userId": "1743987613063",
+    "balance": 212000,
+    "username": "user_1743987613063"
+  },
+  "1743989157129": {
+    "username": "purpleFliq",
+    "walletId": "1743989157129",
+    "userId": "1743989134095",
+    "balance": 0
+  },
+  "1743989259428": {
+    "username": "purpleFliq",
+    "walletId": "1743989259428",
+    "userId": "1743989234592",
+    "balance": 0
+  },
+  "1743989420796": {
+    "username": "tochiFliq",
+    "walletId": "1743989420796",
+    "userId": "1743989397084",
+    "balance": 70000
+  },
+  "1744027853632": {
+    "username": "ArneFliq",
+    "walletId": "1744027853632",
+    "userId": "511d91c6-04e1-470c-8862-d79d2ce24240",
+    "balance": 165000
+  }
+}

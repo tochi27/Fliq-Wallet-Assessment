@@ -1,0 +1,27 @@
+{
+  "79af5b34-249c-418f-a9ad-de72832a36a0": {
+    "id": "79af5b34-249c-418f-a9ad-de72832a36a0",
+    "username": "tochiFliq",
+    "password": "$2b$10$MG85S9PG74l9VVfij.x0xe1AHWYlIaoIcCQHA4Zz8g8dd5qOGu9Ia"
+  },
+  "1de6821a-5530-401b-94b4-e162d0dc57cd": {
+    "id": "1de6821a-5530-401b-94b4-e162d0dc57cd",
+    "username": "HansiFliq",
+    "password": "$2b$10$ABXMIg6BW4eBExoC.e.l3./Qx4rmxZda3T6OrqXend8YYD2nXsFy."
+  },
+  "78a94547-e4ce-41a5-8073-3f96bb2ca467": {
+    "id": "78a94547-e4ce-41a5-8073-3f96bb2ca467",
+    "username": "NoFliq",
+    "password": "$2b$10$LPmgPi8fTHVhWxlQHZu1p.qg//BApG9rZxWfsSDvhNOng.Hub9bFi"
+  },
+  "3ca082db-fb46-4691-bf06-640fdcee7034": {
+    "id": "3ca082db-fb46-4691-bf06-640fdcee7034",
+    "username": "MongoFliq",
+    "password": "$2b$10$nNR6MzgUuZpWu19iAwSrkO8WpI0xddjHvPv3PmyJ8OCEfan0ETz/6"
+  },
+  "511d91c6-04e1-470c-8862-d79d2ce24240": {
+    "id": "511d91c6-04e1-470c-8862-d79d2ce24240",
+    "username": "ArneFliq",
+    "password": "$2b$10$49MyKho3J7UFP.nXwmcDhOvFBZLsVae5rdixcwTLV0Vg/mG1GHX3e"
+  }
+}
