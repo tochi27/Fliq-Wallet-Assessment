@@ -1,6 +1,5 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { User } from "../types/userType";
 import { v4 as uuidv4 } from 'uuid';
 import { readUsersFromFile, writeUsersToFile } from '../utils/userStore';
 

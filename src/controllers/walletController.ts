@@ -1,13 +1,9 @@
 import { Request, Response, NextFunction } from "express";
 import fs from 'fs';
 import path from 'path';
-import { fundWallet, transferFunds } from "../services/walletService";
 import { responseHandler } from "../utils/responseHandler";
-import { User } from "../types/userType";
 import { createWallet } from "../services/walletService";
 import { Wallet } from "../types/walletType";
-import { writeWalletsToFile } from "../services/walletService";
-import { readWalletsFromFile } from "../services/walletService";
 
 
 // Function to read wallets from the JSON file
@@ -20,23 +16,6 @@ const readWallets = () => {
 const saveWallets = (wallets: Record<string, Wallet>) => {
   fs.writeFileSync(path.join(__dirname, '../services/wallets.json'), JSON.stringify(wallets, null, 2));
 };
-
-// Script to update existing wallets (to ensure they have the 'username' field)
-// const updateWallets = () => {
-//   const wallets = readWalletsFromFile();  // Read existing wallets from the file
-
-//   // Loop through each wallet and add the username field if not already present
-//   Object.values(wallets).forEach((wallet: Wallet) => {
-//     if (!wallet.username) {
-//       wallet.username = `${wallet.username}`;  // Add a default username if not present
-//     }
-//   });
-
-//   // Save the updated wallets to the file
-//   writeWalletsToFile(wallets);
-
-//   console.log('Wallets updated successfully');
-// };
 
 // Create a new wallet for the authenticated user
 export const createWalletController = (req: Request, res: Response, next: NextFunction) => {
@@ -51,9 +30,6 @@ export const createWalletController = (req: Request, res: Response, next: NextFu
     const userId = user.id;
     const username =user.username
     const newWallet = createWallet(userId, username);
-
-     // After creating the wallet, update all existing wallets
-    //  updateWallets();
 
     return responseHandler(res, 200, 'Wallet created', { walletId: newWallet.walletId });
   } catch (err) {

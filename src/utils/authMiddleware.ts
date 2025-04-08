@@ -17,7 +17,7 @@ export const authenticateUser = (req: Request, res: Response, next: NextFunction
 
     // Now cast the decoded token as a User and attach it to the request
     req.user = {
-      id: decoded.id, // Assuming the JWT contains these fields
+      id: decoded.id,
       username: decoded.username,
     } = decoded as User;
     
